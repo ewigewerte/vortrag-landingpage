@@ -1,0 +1,159 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+header.hero-section {
+    background: linear-gradient(to bottom, rgba(0, 35, 102, 0.8), rgba(0, 29, 75, 0.8)), 
+                url('../images/image_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFD700;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    z-index: 1; /* Ensure text stays visible */
+    position: relative;
+}
+
+header.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.cta-button {
+    background-color: #FFD700;
+    color: #002366;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.main-section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/gold_pattern.png'); /* Subtle gold pattern */
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.main-section h2 {
+    text-align: center;
+}
+
+.contact-section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/gold_pattern.png'); /* Subtle gold pattern */
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.contact-section h2 {
+    text-align: center;
+}
+
+.important-info {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/gold_pattern.png'); /* Subtle gold pattern */
+    background-size: cover;
+    background-blend-mode: lighten;
+text-align: center;
+}
+
+.important-info h2 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.info-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 223, 186, 0.3); /* Light golden box */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form.registration-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+form.registration-form textarea {
+    grid-column: 1 / -1;
+}
+
+form.registration-form input,
+form.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form.registration-form button {
+    grid-column: 1 / -1;
+    background-color: #FFD700;
+    color: #002366;
+    border: none;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form.registration-form button:hover {
+    background-color: #e6b800;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #002366;
+    color: #FFD700;
+}
